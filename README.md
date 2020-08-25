@@ -1,2 +1,5 @@
-# elidonuts
-Eli Donuts Store
+# Eli Donuts
+Repo of the Eli Donuts store.
+
+---
+Order your donuts at elidonuts.edunsouza.xyz
