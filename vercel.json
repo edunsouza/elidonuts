@@ -1,0 +1,11 @@
+{
+    "routes": [
+        {
+            "src": "/",
+            "headers": {
+                "Access-Control-Allow-Origin": "*"
+            },
+            "dest": "/client/build/index.html"
+        }
+    ]
+}
