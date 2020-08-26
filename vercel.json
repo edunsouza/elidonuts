@@ -1,11 +1,18 @@
 {
-    "routes": [
+    "functions": {
+        "api/*.js": {
+            "memory": 1024,
+            "maxDuration": 10
+        }
+    },
+    "redirects": [
         {
-            "src": "/",
-            "headers": {
-                "Access-Control-Allow-Origin": "*"
-            },
-            "dest": "/client/build/index.html"
+            "source": "/images/logo",
+            "destination": "/logo.png"
+        },
+        {
+            "source": "/(\\w+|\\W+|\/+)",
+            "destination": "/"
         }
     ]
 }
