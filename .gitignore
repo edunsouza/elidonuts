@@ -1,13 +1,18 @@
 mocks/
 
+npm-debug.log*
+.DS_Store
+
 server/node_modules/
 server/package-lock.json
 server/npm-debug.log*
+server/.DS_Store
 
 client/node_modules/
 client/package-lock.json
 client/build
 
+client/.DS_Store
 client/.pnp
 client/.pnp.js
 client/coverage

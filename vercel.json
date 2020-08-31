@@ -8,7 +8,7 @@
     "redirects": [
         {
             "source": "/images/logo",
-            "destination": "/logo.png"
+            "destination": "/logo-og.jpg"
         },
         {
             "source": "/(\\w+|\\W+|\/+)",
