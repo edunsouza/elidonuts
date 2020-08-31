@@ -4,14 +4,15 @@ import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 
 import { RootContextProvider } from './components/RootContext';
 import PageHeader from './components/PageHeader';
+import PlateLoader from './components/PlateLoader';
 
-import './index.css';
+import './index.scss';
 
 function App() {
     const theme = createMuiTheme({
         palette: {
             primary: {
-                main: '#ffecf6',
+                main: '#ffecf7',
                 dark: '#ccbac3',
                 light: '#ffffff',
             },
@@ -33,7 +34,10 @@ function App() {
     return (
         <ThemeProvider theme={theme}>
             <RootContextProvider>
-                <PageHeader />
+                <div id="material-ui-overload">
+                    <PageHeader />
+                    <PlateLoader />
+                </div>
             </RootContextProvider>
         </ThemeProvider>
     );

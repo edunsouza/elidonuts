@@ -1,0 +1,49 @@
+// main colors
+$main-pink: #ffecf7;
+$main-blue: #486480;
+$main-brown: #45271d;
+$donut-pink: #fe2d93;
+
+// pink harmonies
+$pink-harmony-1: #fd9ed1;
+$pink-harmony-2: #fdb1da;
+$pink-harmony-3: #fec5e3;
+$pink-harmony-4: #fed8ed;
+
+// blue harmonies
+$blue-harmony-1: #263544;
+$blue-harmony-2: #435d78;
+$blue-harmony-3: #56789a;
+$blue-harmony-4: #97aec5;
+
+@font-face {
+    font-family: "Baloo Da 2";
+    src: url("./fonts/BalooDa2-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "Baloo Da 2 medium";
+    src: url("./fonts/BalooDa2-Medium.ttf");
+}
+
+body {
+    margin: 0;
+    background-color: $main-blue;
+
+    * {
+        font-family: "Baloo Da 2", sans-serif !important;
+    }
+}
+
+// material-ui overload
+#material-ui-overload {
+    .MuiTypography-h1 {
+        font-size: 38px;
+        font-weight: bolder;
+    }
+
+    .MuiTypography-h2 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
