@@ -12,7 +12,7 @@ export default function PageHeader() {
 					<Box>
 						<img alt="donut logo" src={logoImage} />
 						<Typography variant="h1">Eli Donuts</Typography>
-						<Typography variant="h2">Donuts artesanais sob encomenda</Typography>
+						<Typography variant="body1">Donuts artesanais sob encomenda</Typography>
 						<div className="arrow" />
 					</Box>
 				</Toolbar>

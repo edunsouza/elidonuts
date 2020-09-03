@@ -1,25 +1,13 @@
-import React, { useEffect, useState } from 'react';
-import clsx from 'clsx';
+import React from 'react';
 
 import './PlateLoader.scss'
 
 export default function PlateLoader() {
-    const [removePlate, shouldRemovePlate] = useState(false);
-
-    useEffect(() => {
-        const timeoutId = setTimeout(() => {
-            shouldRemovePlate(true);
-        }, 2500);
-
-        return () => {
-            clearTimeout(timeoutId);
-        };
-    });
-
     return (
-        <div className={clsx('loader', removePlate && 'plate-move')}>
+        <div className="loader">
             <span />
-            <div className="donut-loading" />
+            <div className="donut-shadow" />
+            <div className="donut-loader" />
         </div>
     );
 }

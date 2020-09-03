@@ -5,6 +5,7 @@ import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import { RootContextProvider } from './components/RootContext';
 import PageHeader from './components/PageHeader';
 import PlateLoader from './components/PlateLoader';
+import OrderNow from './components/OrderNow';
 
 import './index.scss';
 
@@ -37,6 +38,7 @@ function App() {
                 <div id="material-ui-overload">
                     <PageHeader />
                     <PlateLoader />
+                    <OrderNow />
                 </div>
             </RootContextProvider>
         </ThemeProvider>

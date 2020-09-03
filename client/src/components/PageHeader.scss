@@ -67,16 +67,15 @@
         line-height: 32px;
     }
 
-    .MuiTypography-h2 {
+    .MuiTypography-body1 {
         font-family: "Baloo Da 2 medium" !important;
-        font-size: 16px;
         position: relative;
         z-index: 2;
     }
 
     .arrow {
-        position: relative;
-        top: -5px;
+        position: absolute;
+        top: 115px;
         left: calc(50% - 15px);
         background-color: transparent;
         border-right: 20px solid $main-pink;
@@ -84,6 +83,7 @@
         height: 5px;
         width: 5px;
         transform: rotate(45deg);
-        box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.2);
+        box-shadow: 5px 5px 4px -1px rgba(0, 0, 0, 0.2);
+        z-index: 1;
     }
 }
