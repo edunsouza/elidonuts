@@ -1,7 +1,7 @@
-mocks/
-
 npm-debug.log*
 .DS_Store
+
+dev-resources/
 
 server/node_modules/
 server/package-lock.json
@@ -10,7 +10,7 @@ server/.DS_Store
 
 client/node_modules/
 client/package-lock.json
-client/build
+client/build/
 
 client/.DS_Store
 client/.pnp
