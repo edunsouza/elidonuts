@@ -1,4 +1,5 @@
-@import '../index.scss';
+@import '../common/styles/colors.scss';
+@import '../common/styles/sizes.scss';
 
 .loader {
     display: flex;
@@ -12,19 +13,11 @@
     width: 160px;
     box-shadow: 11px 11px 4px 2px #263544ad;
     border-radius: 50%;
-    border: 3px dashed $main-blue;
+    border: 3px dashed $color-secondary;
     border-bottom-color: #314458;
     border-right-color: #314458;
     animation: plate-zoom-in 0.5s linear 0s, plate-zoom-out 0.3s linear 2.1s forwards;
     z-index: 100;
-
-    @keyframes vanish {
-
-        from,
-        to {
-            opacity: 0;
-        }
-    }
 
     @keyframes plate-zoom-in {
         from {
@@ -52,8 +45,8 @@
 
         0%,
         80% {
-            background-color: $pink-harmony-1;
-            border-color: $donut-pink;
+            background-color: $color-primary-harmony-1;
+            border-color: $color-attention;
         }
 
         from {
@@ -62,24 +55,32 @@
             transform: scaleX(1) scaleY(1);
         }
 
-        20% {
-            transform: scaleX(0.6) scaleY(0.3);
+        40% {
+            transform: scaleX(0.3) scaleY(0.3) rotateZ(-70deg);
+            filter: blur(10px);
+            border-radius: 45%
         }
 
         70% {
-            transform: scaleX(0.2) scaleY(0.3);
+            transform: scaleX(0.2) scaleY(0.3) rotateZ(-80deg);
+            filter: blur(8px);
+            border-radius: 35%
         }
 
         90% {
-            transform: scaleX(0.8) scaleY(0.1);
+            transform: scaleX(0.6) scaleY(0.1) rotateZ(-85deg);
+            opacity: 1;
+            filter: blur(8px);
+            border-radius: 45%
         }
 
         to {
-            background-color: $pink-harmony-1;
-            border-color: $donut-pink;
+            background-color: $color-primary-harmony-1;
+            border-color: $color-attention;
             margin-top: -30px;
             opacity: 0;
-            transform: scaleX(0.9) scaleY(0.1);
+            transform: scaleX(1) scaleY(0.1) rotateZ(-90deg);
+            border-radius: 50%
         }
     }
 
@@ -95,8 +96,8 @@
 
             0%,
             80% {
-                background-color: $pink-harmony-1;
-                border-color: $donut-pink;
+                background-color: $color-primary-harmony-1;
+                border-color: $color-attention;
             }
 
             from {
@@ -121,8 +122,8 @@
             }
 
             to {
-                background-color: $pink-harmony-1;
-                border-color: $donut-pink;
+                background-color: $color-primary-harmony-1;
+                border-color: $color-attention;
                 margin-top: -65%;
                 opacity: 0;
                 transform: scaleX(0.9) scaleY(0.1);
@@ -137,7 +138,7 @@
         width: 90px;
         filter: opacity(0);
         border-radius: 50%;
-        background-image: url("../images/donut-before-bites.png");
+        background-image: url("../common/images/donut-before-bites.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100%;
@@ -171,7 +172,7 @@
         @keyframes donut-loading-bites {
             from {
                 filter: opacity(1);
-                background-image: url("../images/donut-bites.gif");
+                background-image: url("../common/images/donut-bites.gif");
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: 100%;
@@ -180,7 +181,7 @@
 
             to {
                 filter: opacity(1);
-                background-image: url("../images/donut-bites.gif");
+                background-image: url("../common/images/donut-bites.gif");
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: 100%;
@@ -195,7 +196,7 @@
         height: 95px;
         width: 95px;
         opacity: 0;
-        background-image: url("../images/donut-before-bites.png");
+        background-image: url("../common/images/donut-before-bites.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100%;

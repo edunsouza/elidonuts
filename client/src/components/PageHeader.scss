@@ -1,4 +1,4 @@
-@import '../index.scss';
+@import '../common/styles/colors.scss';
 
 @keyframes donut-waves {
     from {
@@ -39,14 +39,14 @@
 }
 
 #page-header {
-    background-color: $main-pink;
+    background-color: $color-primary;
     height: 130px;
     display: flex;
 
     * {
         justify-content: center;
         text-align: center;
-        color: $main-brown;
+        color: $color-text;
     }
 
     .MuiBox-root {
@@ -78,8 +78,8 @@
         top: 115px;
         left: calc(50% - 15px);
         background-color: transparent;
-        border-right: 20px solid $main-pink;
-        border-bottom: 20px solid $main-pink;
+        border-right: 20px solid $color-primary;
+        border-bottom: 20px solid $color-primary;
         height: 5px;
         width: 5px;
         transform: rotate(45deg);

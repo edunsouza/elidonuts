@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, AppBar, Toolbar, Box, Typography } from '@material-ui/core';
 
 import './PageHeader.scss';
-import logoImage from '../images/logo_no_bg.png';
+import logoImage from '../common/images/logo_no_bg.png';
 
 export default function PageHeader() {
 	return (

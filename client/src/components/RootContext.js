@@ -3,6 +3,7 @@ import React, { useReducer, useContext, createContext } from 'react';
 const RootContext = createContext({});
 
 const initialState = {
+    animations: {},
     products: [],
     order: {},
     selectedBoxes: []
@@ -10,6 +11,8 @@ const initialState = {
 
 const reducer = (oldState, { type, payload }) => {
     switch (type) {
+        case 'SET_ANIMATIONS':
+            return { ...oldState, animations: { ...oldState.animations, ...payload } };
         case 'SET_PRODUCTS':
             return { ...oldState, products: payload };
         case 'SET_ORDER': // TODO
