@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="54.857 227.274 352.124 163.88" xmlns="http://www.w3.org/2000/svg" xmlnsBx="https://boxy-svg.com">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="192.854" y1="90.711" x2="192.854" y2="121.803" id="gradient-141" gradientTransform="matrix(0.508292, -0.84991, 1.370626, 0.819708, 14.687839, 231.993477)">
+      <stop offset="0" style="stop-color: rgba(255, 236, 246, 1)"/>
+      <stop offset="1" style="stop-color: rgba(255, 134, 199, 1)"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="233.478" y1="100.869" x2="233.478" y2="121.803" id="gradient-142" gradientTransform="matrix(0.191121, 0.97169, -2.479998, 0.498144, 531.028743, -119.655175)">
+      <stop offset="0" style="stop-color: rgba(255, 236, 246, 1)"/>
+      <stop offset="1" style="stop-color: rgba(255, 134, 199, 1)"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="337.111" y1="168.368" x2="337.111" y2="188.675" id="gradient-143" gradientTransform="matrix(0.791118, 0.611663, -2.42065, 3.240173, 461.492699, -642.98175)">
+      <stop offset="0" style="stop-color: rgba(255, 236, 246, 1)"/>
+      <stop offset="1" style="stop-color: rgba(255, 134, 199, 1)"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="305.926" y1="157.576" x2="305.926" y2="184.863" id="gradient-144" gradientTransform="matrix(-0.729105, -1.052121, 1.193613, -0.262179, 290.122866, 508.372949)">
+      <stop offset="0" style="stop-color: rgba(255, 196, 228, 1)"/>
+      <stop offset="1" style="stop-color: rgba(255, 94, 182, 1)"/>
+    </linearGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="415.182" cy="102.489" r="16.482" id="gradient-64" gradientTransform="matrix(0.968386, -0.102386, 0.099224, 0.994768, 32.956338, 13.045102)">
+      <stop offset="0" style="stop-color: rgb(255, 109, 180);"/>
+      <stop offset="1" style="stop-color: rgb(255, 0, 123);"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="415.182" cy="102.489" r="16.482" id="gradient-65" gradientTransform="matrix(0.663059, 0.972357, -0.939472, 0.640635, 266.17749, -396.873932)">
+      <stop offset="0" style="stop-color: rgba(197, 96, 56, 1)"/>
+      <stop offset="1" style="stop-color: rgb(157, 82, 53);"/>
+    </radialGradient>
+  </defs>
+  <g transform="matrix(3.885619, 0, 0, 3.885619, -886.617004, -296.064423)" style="">
+    <path d="M 249.522 142.154 L 248.902 150.896 L 272.186 172.945 L 273.58 161.08 L 249.522 142.154 Z" style="fill: url(#gradient-141);"/>
+    <path d="M 330.773 152.214 L 330.067 161.796 L 272.169 172.945 L 273.58 161.102 L 330.773 152.214 Z" style="fill: url(#gradient-142);"/>
+    <path d="M 248.902 141.427 C 255.177 141.427 303.416 134.711 303.391 134.686 C 303.39 134.685 332.395 149.253 332.393 149.256 L 274.371 159.216 L 248.902 141.427 Z" style="fill: url(#gradient-143);"/>
+    <path d="M 329.875 152.597 L 329.352 141.381 L 272.487 157.348 L 272.59 169.112 L 329.875 152.597 Z" style="fill: rgb(255, 196, 228);" transform="matrix(0.994619, 0.1036, -0.1036, 0.994619, 19.466383, -25.514915)" bx:origin="-0.298 1.269"/>
+    <path d="M 243.029 141.33 L 272.864 149.444 L 275.733 160.981 L 244.875 148.683 L 243.029 141.33 Z" style="fill: url(#gradient-144);" transform="matrix(0.941819, 0.336119, -0.336119, 0.941819, 67.516416, -73.366493)" bx:origin="0.085 0.91"/>
+    <g transform="matrix(0.520676, -0.07995, 0.308556, 0.224748, 51.027386, 174.726929)" style="" bx:origin="0.526 0.496">
+      <g transform="matrix(1, 0, 0, 1, 3.418031, -40.765423)">
+        <g transform="matrix(1, 0, 0, 1, -7.166658, 1.029352)">
+          <path d="M 914.75 86.094 m -5.105 0 a 5.105 4.697 0 1 0 10.21 0 a 5.105 4.697 0 1 0 -10.21 0 Z M 914.75 86.094 m -3.064 0 a 3.064 2.818 0 0 1 6.128 0 a 3.064 2.818 0 0 1 -6.128 0 Z" style="fill: rgb(218, 123, 86);" transform="matrix(-0.707107, 0.707107, -0.707107, -0.707107, 1153.214007, -513.072444)" bxShape="ring 914.75 86.094 3.064 2.818 5.105 4.697 1@49f182f9"/>
+          <path d="M 454.855 79.293 C 455.358 82.307 457.363 81.554 458.366 81.282 C 458.722 81.185 458.961 81.357 458.95 81.37 C 455.428 85.684 451.586 88.871 445.181 88.871 C 436.078 88.871 428.699 81.537 428.699 72.489 C 428.699 63.441 436.078 56.107 445.181 56.107 C 451.177 56.107 456.465 59.266 459.31 64.047 C 459.334 64.087 459.29 64.286 459.152 64.237 C 456.627 63.352 455.574 65.577 455.602 65.945 C 455.605 65.98 455.269 65.962 455.068 65.945 C 453.13 65.779 451.638 67.772 451.984 69.272 C 452.011 69.391 452.026 69.549 451.94 69.629 C 449.057 72.336 451.812 74.421 451.643 74.998 C 450.495 78.911 454.827 79.124 454.855 79.293 Z M 444.753 68.74 C 442.698 68.74 441.033 70.406 441.033 72.46 C 441.033 74.515 442.698 76.18 444.753 76.18 C 446.807 76.18 448.473 74.515 448.473 72.46 C 448.473 70.406 446.807 68.74 444.753 68.74 Z" style="stroke-width: 0.8px; fill: url(#gradient-64); stroke: url(#gradient-65);"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 23.154455, -29.075422)">
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(2, 219, 38); stroke-width: 0.5px;" x1="400.604" y1="110.174" x2="403.26" y2="109.531" transform="matrix(0, -1.029553, 0.971296, 0, 295.232756, 523.66268)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(2, 219, 38); stroke-width: 0.5px;" x1="408.624" y1="115.464" x2="411.279" y2="114.82" transform="matrix(0, 1.029553, -0.971296, 0, 521.788409, -306.924664)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(2, 219, 38); stroke-width: 0.5px;" x1="420.551" y1="114.828" x2="422.096" y2="116.95" transform="matrix(-1, 0, 0, -1, 842.647003, 231.778)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(2, 219, 38); stroke-width: 0.5px;" x1="418.198" y1="100.183" x2="420.551" y2="99.645"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(2, 219, 38); stroke-width: 0.5px;" x1="405.71" y1="100.508" x2="407.995" y2="100.98" transform="matrix(0, 1.029553, -0.971296, 0, 504.704701, -318.132076)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(2, 219, 38); stroke-width: 0.5px;" x1="412.687" y1="86.627" x2="413.98" y2="88.508" transform="matrix(0, -1.029553, 0.971296, 0, 328.279583, 513.11613)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(78, 2, 219); stroke-width: 0.6px;" x1="413.774" y1="91.419" x2="416.507" y2="90.794"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(78, 2, 219); stroke-width: 0.5px;" x1="412.068" y1="114.922" x2="414.723" y2="114.278" transform="matrix(0, 1.029553, -0.971296, 0, 524.705967, -311.012443)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(78, 2, 219); stroke-width: 0.5px;" x1="416.507" y1="107.709" x2="418.053" y2="109.831" transform="matrix(-1, 0, 0, -1, 834.559998, 217.540001)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(78, 2, 219); stroke-width: 0.5px;" x1="404.27" y1="109.877" x2="406.623" y2="109.339"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(78, 2, 219); stroke-width: 0.5px;" x1="422.231" y1="91.873" x2="424.584" y2="92.331" transform="matrix(-1, 0, 0, -1, 846.815002, 184.204002)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(78, 2, 219); stroke-width: 0.5px;" x1="409.595" y1="87.958" x2="410.888" y2="89.839" transform="matrix(0, -1.029553, 0.971296, 0, 323.89478, 511.26374)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(198, 31, 84); stroke-width: 0.5px;" x1="405.211" y1="113.534" x2="407.496" y2="112.819" transform="matrix(0, -1.029553, 0.971296, 0, 296.425665, 531.538838)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(198, 31, 84); stroke-width: 0.5px;" x1="414.062" y1="116.108" x2="417.006" y2="116.58" transform="matrix(0, -1.029553, 0.971296, 0, 302.529595, 544.158162)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(198, 31, 84); stroke-width: 0.5px;" x1="418.048" y1="86.84" x2="419.549" y2="89.654" transform="matrix(0, 1.029553, -0.971296, 0, 504.512428, -342.928133)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(78, 2, 219); stroke-width: 0.5px;" x1="413.893" y1="95.579" x2="416.179" y2="95.026" transform="matrix(0, 1.029553, -0.971296, 0, 507.602896, -331.998924)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(2, 219, 38); stroke-width: 0.5px;" x1="419.743" y1="91.419" x2="421.155" y2="92.178" transform="matrix(-1, 0, 0, -1, 840.89801, 183.597)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(255, 255, 255); stroke-width: 0.5px;" x1="420.551" y1="109.876" x2="422.904" y2="110.414"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(255, 255, 255); stroke-width: 0.5px;" x1="408.585" y1="97.511" x2="411.318" y2="98.137"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(255, 255, 255); stroke-width: 0.5px;" x1="408.534" y1="108.385" x2="411.189" y2="109.215" transform="matrix(0, -1.029553, 0.971296, 0, 304.184535, 530.774006)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(255, 255, 255); stroke-width: 0.5px;" x1="405.556" y1="93.023" x2="407.909" y2="93.718" transform="matrix(-1, 0, 0, -1, 813.464996, 186.741005)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(255, 255, 255); stroke-width: 0.5px;" x1="399.431" y1="106.31" x2="400.697" y2="104.187"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(2, 219, 38); stroke-width: 0.5px;" x1="417.469" y1="105.046" x2="420.124" y2="105.69" transform="matrix(0, -1.029553, 0.971296, 0, 316.453019, 536.541057)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(78, 2, 219); stroke-width: 0.5px;" x1="421.826" y1="112.522" x2="424.179" y2="112.064" transform="matrix(-1, 0, 0, -1, 846.004974, 224.586006)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(198, 31, 84); stroke-width: 0.5px;" x1="418.729" y1="96.477" x2="421.462" y2="97.283"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(198, 31, 84); stroke-width: 0.5px;" x1="419.109" y1="112.539" x2="421.462" y2="113.234"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(255, 255, 255); stroke-width: 0.5px;" x1="415.32" y1="97.909" x2="418.053" y2="97.283" transform="matrix(-1, 0, 0, -1, 833.373016, 195.191994)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(255, 255, 255); stroke-width: 0.5px;" x1="414.218" y1="111.625" x2="416.951" y2="110.819"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(255, 255, 255); stroke-width: 0.5px;" x1="418.73" y1="94.123" x2="421.083" y2="93.428"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(198, 31, 84); stroke-width: 0.5px;" x1="409.687" y1="94.126" x2="412.42" y2="94.932"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(198, 31, 84); stroke-width: 0.5px;" x1="418.821" y1="106.757" x2="421.475" y2="105.928" transform="matrix(0, -1.029553, 0.971296, 0, 316.858005, 538.907017)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(198, 31, 84); stroke-width: 0.5px;" x1="410.462" y1="90.488" x2="411.318" y2="92.178"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(2, 219, 38); stroke-width: 0.5px;" x1="405.242" y1="91.625" x2="407.976" y2="91"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(2, 219, 38); stroke-width: 0.5px;" x1="399.953" y1="99.645" x2="402.686" y2="99.019" transform="matrix(-1, 0, 0, -1, 802.639008, 198.663994)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(2, 219, 38); stroke-width: 0.5px;" x1="423.214" y1="93.332" x2="424.716" y2="95.516" transform="matrix(0, -1.029553, 0.971296, 0, 332.251381, 530.918303)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(78, 2, 219); stroke-width: 0.5px;" x1="400.495" y1="103.089" x2="403.228" y2="102.463" transform="matrix(-1, 0, 0, -1, 803.722992, 205.551994)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(78, 2, 219); stroke-width: 0.5px;" x1="406.94" y1="105.569" x2="408.442" y2="107.753" transform="matrix(0, -1.029553, 0.971296, 0, 304.091635, 526.40036)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(78, 2, 219); stroke-width: 0.5px;" x1="405.704" y1="96.611" x2="407.989" y2="96.057" transform="matrix(0, 1.029553, -0.971296, 0, 500.415302, -322.535922)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(198, 31, 84); stroke-width: 0.5px;" x1="402.108" y1="96.082" x2="404.461" y2="95.387"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(198, 31, 84); stroke-width: 0.5px;" x1="411.155" y1="108.891" x2="414.187" y2="109.349"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(198, 31, 84); stroke-width: 0.5px;" x1="402.432" y1="109.309" x2="404.717" y2="110.024" transform="matrix(0, 1.029553, -0.971296, 0, 510.093098, -305.834721)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(255, 255, 255); stroke-width: 0.5px;" x1="403.912" y1="105.38" x2="406.567" y2="104.55" transform="matrix(0, 1.029553, -0.971296, 0, 507.19153, -312.250404)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(198, 31, 84); stroke-width: 0.5px;" x1="403.075" y1="98.065" x2="405.73" y2="98.895" transform="matrix(0, 1.029553, -0.971296, 0, 500.055702, -317.873695)"/>
+          <line style="paint-order: fill; filter: none; stroke-linecap: round; stroke-miterlimit: 5; stroke-linejoin: round; stroke: rgb(198, 31, 84); stroke-width: 0.5px;" x1="408.585" y1="104.001" x2="411.318" y2="103.195" transform="matrix(-1, 0, 0, -1, 819.902985, 207.195999)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

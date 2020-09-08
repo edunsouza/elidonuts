@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="71.604 16.481 359.812 359.481" xmlns="http://www.w3.org/2000/svg" xmlnsBx="https://boxy-svg.com">
+  <defs>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="415.182" cy="102.489" r="16.482" id="gradient-34" gradientTransform="matrix(0.663059, 0.972357, -0.939472, 0.640635, 153.548126, -436.713127)">
+      <stop offset="0" style="stop-color: rgba(197, 96, 56, 1)"/>
+      <stop offset="1" style="stop-color: rgb(157, 82, 53);"/>
+    </radialGradient>
+  </defs>
+  <g transform="matrix(10.302433, 0, 0, 10.302433, -3175.82373, -138.889771)" style="">
+    <path d="M 914.75 86.094 m -5.105 0 a 5.105 4.697 0 1 0 10.21 0 a 5.105 4.697 0 1 0 -10.21 0 Z M 914.75 86.094 m -3.064 0 a 3.064 2.818 0 0 1 6.128 0 a 3.064 2.818 0 0 1 -6.128 0 Z" style="fill: rgb(218, 123, 86);" transform="matrix(-0.707107, 0.707107, -0.707107, -0.707107, 1040.58388, -552.911067)" bxShape="ring 914.75 86.094 3.064 2.818 5.105 4.697 1@49f182f9"/>
+    <path d="M 349.035 32.65 C 349.035 41.698 341.655 49.032 332.552 49.032 C 323.449 49.032 316.07 41.698 316.07 32.65 C 316.07 23.602 323.449 16.268 332.552 16.268 C 341.655 16.268 349.035 23.602 349.035 32.65 Z M 332.124 28.901 C 330.069 28.901 328.404 30.567 328.404 32.621 C 328.404 34.676 330.069 36.341 332.124 36.341 C 334.178 36.341 335.844 34.676 335.844 32.621 C 335.844 30.567 334.178 28.901 332.124 28.901 Z" style="stroke-width: 0.8px; stroke: url(#gradient-34); fill: rgb(89, 30, 7);"/>
+    <g transform="matrix(1, 0, 0, 1, 41.668633, 0.118923)">
+      <circle style="paint-order: fill; fill: rgb(255, 134, 53);" cx="278.015" cy="39.336" r="1.318"/>
+      <circle style="paint-order: fill; fill: rgb(218, 215, 30);" cx="278.506" cy="26.103" r="1.318"/>
+      <circle style="paint-order: fill; fill: rgb(1, 138, 230);" cx="281.142" cy="42.674" r="1.318"/>
+      <circle style="paint-order: fill; fill: rgb(68, 188, 72);" cx="281.69" cy="28.227" r="1.318"/>
+      <circle style="paint-order: fill; fill: rgb(198, 31, 84);" cx="283.971" cy="30.428" r="1.318"/>
+      <circle style="paint-order: fill; fill: rgb(198, 31, 84);" cx="277.292" cy="29.699" r="1.318"/>
+      <circle style="paint-order: fill; fill: rgb(68, 188, 72);" cx="278.015" cy="34.552" r="1.318"/>
+      <circle style="paint-order: fill; fill: rgb(1, 138, 230);" cx="280.651" cy="33.082" r="1.318"/>
+      <circle style="paint-order: fill; fill: rgb(198, 31, 84);" cx="281.69" cy="39.336" r="1.318"/>
+      <circle style="paint-order: fill; fill: rgb(255, 134, 53);" cx="298.763" cy="42.674" r="1.318"/>
+      <circle style="paint-order: fill; fill: rgb(218, 215, 30);" cx="283.778" cy="35.718" r="1.318"/>
+      <circle style="paint-order: fill; fill: rgb(218, 215, 30);" cx="299.739" cy="27.063" r="1.318"/>
+      <circle style="paint-order: fill; fill: rgb(201, 37, 195);" cx="298.319" cy="35.064" r="1.318"/>
+      <circle style="paint-order: fill; fill: rgb(68, 188, 72);" cx="299.739" cy="21.985" r="1.318"/>
+      <circle style="paint-order: fill; fill: rgb(198, 31, 84);" cx="303.008" cy="28.739" r="1.318"/>
+      <circle style="paint-order: fill; fill: rgb(206, 25, 25);" cx="297.103" cy="24.69" r="1.318"/>
+      <circle style="paint-order: fill; fill: rgb(68, 188, 72);" cx="296.697" cy="30.863" r="1.318"/>
+      <circle style="paint-order: fill; fill: rgb(1, 138, 230);" cx="302.375" cy="25.006" r="1.318"/>
+      <circle style="paint-order: fill; fill: rgb(206, 25, 25);" cx="302.266" cy="34.665" r="1.318"/>
+      <circle style="paint-order: fill; fill: rgb(255, 134, 53);" cx="292.266" cy="46.336" r="1.318"/>
+      <circle style="paint-order: fill; fill: rgb(218, 215, 30);" cx="304.164" cy="32.029" r="1.318"/>
+      <circle style="paint-order: fill; fill: rgb(255, 134, 53);" cx="289.895" cy="27.596" r="1.318" transform="matrix(0, 1, -1, 0, 320.369019, -271.104004)"/>
+      <circle style="paint-order: fill; fill: rgb(218, 215, 30);" cx="287.302" cy="20.242" r="1.318" transform="matrix(0, 1, -1, 0, 316.369019, -268.104004)"/>
+      <circle style="paint-order: fill; fill: rgb(201, 37, 195);" cx="286.962" cy="30.928" r="1.318" transform="matrix(0, 1, -1, 0, 333.369019, -248.104004)"/>
+      <circle style="paint-order: fill; fill: rgb(1, 138, 230);" cx="290.089" cy="35.718" r="1.318" transform="matrix(0, 1, -1, 0, 317.369019, -267.104004)"/>
+      <circle style="paint-order: fill; fill: rgb(198, 31, 84);" cx="293.273" cy="25.472" r="1.318" transform="matrix(0, 1, -1, 0, 319.881012, -270.947021)"/>
+      <circle style="paint-order: fill; fill: rgb(68, 188, 72);" cx="286.962" cy="27.596" r="1.318" transform="matrix(0, 1, -1, 0, 316.369019, -268.104004)"/>
+      <circle style="paint-order: fill; fill: rgb(1, 138, 230);" cx="290.58" cy="23.322" r="1.318" transform="matrix(0, 1, -1, 0, 323.369019, -258.104004)"/>
+      <circle style="paint-order: fill; fill: rgb(198, 31, 84);" cx="290.637" cy="31.398" r="1.318" transform="matrix(0, 1, -1, 0, 316.369019, -270.104004)"/>
+      <circle style="paint-order: fill; fill: rgb(218, 215, 30);" cx="287.302" cy="20.242" r="1.318" transform="matrix(0, 1, -1, 0, 318.406006, -248.651031)"/>
+      <circle style="paint-order: fill; fill: rgb(201, 37, 195);" cx="286.962" cy="30.928" r="1.318" transform="matrix(0, 1, -1, 0, 317.429993, -248.608017)"/>
+      <circle style="paint-order: fill; fill: rgb(68, 188, 72);" cx="293.216" cy="21.902" r="1.318" transform="matrix(0, 1, -1, 0, 317.429993, -248.608017)"/>
+      <circle style="paint-order: fill; fill: rgb(198, 31, 84);" cx="293.273" cy="25.472" r="1.318" transform="matrix(0, 1, -1, 0, 319.429993, -252.608017)"/>
+      <circle style="paint-order: fill; fill: rgb(206, 25, 25);" cx="287.259" cy="23.322" r="1.318" transform="matrix(0, 1, -1, 0, 314.429993, -265.608032)"/>
+      <circle style="paint-order: fill; fill: rgb(68, 188, 72);" cx="286.962" cy="27.596" r="1.318" transform="matrix(0, 1, -1, 0, 322.007019, -249.078018)"/>
+      <circle style="paint-order: fill; fill: rgb(1, 138, 230);" cx="290.58" cy="23.322" r="1.318" transform="matrix(0, 1, -1, 0, 310.429993, -267.608032)"/>
+      <circle style="paint-order: fill; fill: rgb(206, 25, 25);" cx="290.637" cy="31.398" r="1.318" transform="matrix(0, 1, -1, 0, 317.429993, -248.608017)"/>
+      <circle style="paint-order: fill; fill: rgb(255, 134, 53);" cx="292.531" cy="34.034" r="1.318" transform="matrix(0, 1, -1, 0, 317.812012, -247.866013)"/>
+      <circle style="paint-order: fill; fill: rgb(218, 215, 30);" cx="292.725" cy="28.762" r="1.318" transform="matrix(0, 1, -1, 0, 317.311981, -247.415009)"/>
+      <circle style="paint-order: fill; fill: rgb(201, 37, 195);" cx="286.962" cy="30.928" r="1.318" transform="matrix(0, 1, -1, 0, 316.369019, -260.859009)"/>
+      <circle style="paint-order: fill; fill: rgb(201, 37, 195);" cx="286.962" cy="30.928" r="1.318" transform="matrix(0, 1, -1, 0, 321.32901, -261.213989)"/>
+      <circle style="paint-order: fill; fill: rgb(218, 215, 30);" cx="287.302" cy="20.242" r="1.318" transform="matrix(0, 1, -1, 0, 314.213013, -259.908997)"/>
+      <circle style="paint-order: fill; fill: rgb(255, 134, 53);" cx="289.895" cy="27.596" r="1.318" transform="matrix(0, 1, -1, 0, 318.673004, -251.932983)"/>
+      <circle style="paint-order: fill; fill: rgb(1, 138, 230);" cx="290.58" cy="23.322" r="1.318" transform="matrix(0, 1, -1, 0, 313.235474, -249.496033)"/>
+    </g>
+  </g>
+</svg>
