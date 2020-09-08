@@ -1,0 +1,13 @@
+@import './sizes.scss';
+
+#root {
+    .text-center {
+        text-align: center;
+    }
+
+    .clear-bottom {
+        @media (min-width: $sm-min-width) {
+            margin-bottom: 20px;
+        }
+    }
+}
