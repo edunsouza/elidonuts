@@ -1,0 +1,109 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    preserveAspectRatio="xMidYMid meet" viewBox="0 0 640 640" width="640" height="640" style="">
+    <defs>
+        <path
+            d="M227.98 420.69C211.37 420.69 195.74 412.82 185.84 399.48C146.9 347.03 45.85 210.86 6.92 158.4C0.41 149.63 6.67 137.19 17.59 137.19C96.55 137.19 298.81 137.19 375.71 137.19C398.96 137.19 421.01 147.49 435.94 165.31C478.71 216.39 587.75 346.61 631.59 398.96C638.81 407.58 632.68 420.69 621.45 420.69C537.47 420.69 312.34 420.69 227.98 420.69Z"
+            id="b2czAu36sD" class="LTkVaEUP_0"></path>
+        <path
+            d="M71.03 248.93C214.16 248.93 303.61 248.93 339.39 248.93C359.26 248.93 377.95 258.34 389.78 274.29C404.26 293.81 440.46 342.61 498.37 420.69"
+            id="ejqS9e6t9" class="LTkVaEUP_1"></path>
+        <path
+            d="M263.92 404.91C254.44 413.69 226.33 443.18 170.32 388.17C147.88 366.14 114.55 369 112 314.02C110.57 283.02 98.65 281.5 113.95 254.01C119.21 244.55 116.99 211.39 155.94 191.99C182.19 178.91 181.18 184.98 192.92 179.3C244.16 154.53 278.9 179.75 289.5 184.45C354.98 213.46 380.8 312.25 358.12 317.05C313.16 326.55 368.17 353.81 306.95 386.68C293.22 394.05 282.7 387.51 263.92 404.91ZM196.2 277.53C192.57 291.86 195.37 313.78 228.76 322.22C260.4 330.21 287.3 275.78 235.87 255.33C223.69 250.48 200.7 259.79 196.2 277.53Z"
+            id="icOAg4qdi" class="LTkVaEUP_2"></path>
+        <path
+            d="M492.84 436.04C493.65 423.73 515.28 393.91 490.96 350.68C440.43 260.9 380.74 262.95 367.68 260.9C287.03 248.21 174.93 335.19 225.96 443.83C233.51 459.9 490.49 471.84 492.84 436.04ZM399.51 407.74C394.13 423.71 377.9 442.97 340.7 430.41C305.46 418.52 313.33 349.75 375.24 361.94C389.9 364.83 406.17 387.96 399.51 407.74Z"
+            id="d304FAUWJH" class="LTkVaEUP_3"></path>
+        <path
+            d="M215.41 416.7C206.16 416.64 197.47 412.29 191.9 404.91C167.24 372.26 105.6 290.62 6.96 160C7.41 215.41 7.7 250.05 7.81 263.9C7.92 277 11.98 289.75 19.47 300.5C50.05 344.4 130.72 460.21 161.41 504.26C168.28 514.12 179.54 520 191.55 520C279.85 520 525.56 520 613.86 520C624.51 520 633.2 511.48 633.42 500.83C633.66 488.8 634.26 458.75 635.21 410.66C635.21 410.66 635.21 410.66 635.21 410.66C626.29 416.15 616 419.02 605.52 418.96C524.57 418.49 296.64 417.17 215.41 416.7Z"
+            id="aJdGxwqzY" class="LTkVaEUP_4"></path>
+    </defs>
+    <g>
+        <g>
+            <g>
+                <use xlink:href="#b2czAu36sD" opacity="1" fill="#ffecf7" fill-opacity="1"></use>
+                <g>
+                    <use xlink:href="#b2czAu36sD" opacity="1" fill-opacity="0" stroke="#ff77b9" stroke-width="10"
+                        stroke-opacity="1"></use>
+                </g>
+            </g>
+            <g>
+                <g>
+                    <use xlink:href="#ejqS9e6t9" opacity="1" fill-opacity="0" stroke="#ff77b9" stroke-width="10"
+                        stroke-opacity="1"></use>
+                </g>
+            </g>
+            <g>
+                <use xlink:href="#icOAg4qdi" opacity="1" fill="#d50068" fill-opacity="1"></use>
+                <g>
+                    <use xlink:href="#icOAg4qdi" opacity="1" fill-opacity="0" stroke="#8f0046" stroke-width="12"
+                        stroke-opacity="1"></use>
+                </g>
+            </g>
+            <g>
+                <use xlink:href="#d304FAUWJH" opacity="1" fill="#d4bb93" fill-opacity="1"></use>
+                <g>
+                    <use xlink:href="#d304FAUWJH" opacity="1" fill-opacity="0" stroke="#9e7128" stroke-width="12"
+                        stroke-opacity="1"></use>
+                </g>
+            </g>
+            <g>
+                <use xlink:href="#aJdGxwqzY" opacity="1" fill="#ffc3e6" fill-opacity="1"></use>
+                <g>
+                    <use xlink:href="#aJdGxwqzY" opacity="1" fill-opacity="0" stroke="#ff77b9" stroke-width="10"
+                        stroke-opacity="1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+    <style>
+        .LTkVaEUP_0 {
+            stroke-dasharray: 1534 1536;
+            stroke-dashoffset: 1535;
+            animation: LTkVaEUP_draw 1200ms linear 0ms forwards;
+        }
+
+        .LTkVaEUP_1 {
+            stroke-dasharray: 510 512;
+            stroke-dashoffset: 511;
+            animation: LTkVaEUP_draw 1200ms linear 0ms forwards;
+        }
+
+        .LTkVaEUP_2 {
+            stroke-dasharray: 1014 1016;
+            stroke-dashoffset: 1015;
+            animation: LTkVaEUP_draw 1200ms linear 0ms forwards;
+        }
+
+        .LTkVaEUP_3 {
+            stroke-dasharray: 1052 1054;
+            stroke-dashoffset: 1053;
+            animation: LTkVaEUP_draw 1200ms linear 0ms forwards;
+        }
+
+        .LTkVaEUP_4 {
+            stroke-dasharray: 1725 1727;
+            stroke-dashoffset: 1726;
+            animation: LTkVaEUP_draw 1200ms linear 0ms forwards;
+        }
+
+        @keyframes LTkVaEUP_draw {
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+
+        @keyframes LTkVaEUP_fade {
+            0% {
+                stroke-opacity: 1;
+            }
+
+            62.96296296296296% {
+                stroke-opacity: 1;
+            }
+
+            100% {
+                stroke-opacity: 0;
+            }
+        }
+    </style>
+</svg>
