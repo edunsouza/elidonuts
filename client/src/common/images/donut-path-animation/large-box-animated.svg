@@ -1,0 +1,68 @@
+<!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation: isolate;"
+    viewBox="0 100 600 400">
+    <defs>
+        <clipPath id="_clipPath_8VnVONtJ1RMFJ3lqE4LDZgDb38CfWrBu">
+            <path width="600" height="600" d="M0 0 L600 0 L600 600 L0 600 Z" class="large-box-0"></path>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#_clipPath_8VnVONtJ1RMFJ3lqE4LDZgDb38CfWrBu)">
+        <g>
+            <path
+                d=" M 530.44 213.91 C 404.167 213.91 318.39 213.91 286.824 213.91 C 269.303 213.91 252.805 222.212 242.369 236.283 C 229.594 253.504 188.978 305.245 137.879 374.13"
+                fill="none" vector-effect="non-scaling-stroke" stroke-width="3" stroke="rgb(255,119,185)"
+                stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" class="large-box-2"></path>
+        </g>
+        <g>
+            <path
+                d=" M 366.814 260.597 C 330.196 298.07 256.692 282.735 242.137 233.309 C 229.228 189.475 262.55 144.038 307.997 141.152 C 342.346 138.971 373.102 159.702 382.569 192.926 C 389.555 217.438 384.595 242.401 366.814 260.597 Z  M 291.251 218.412 C 294.082 226.818 302.622 236.959 322.199 230.354 C 340.737 224.092 336.6 187.902 304.023 194.317 C 296.303 195.842 287.744 208.004 291.251 218.412 Z "
+                fill="rgb(85,55,7)" vector-effect="non-scaling-stroke" stroke-width="3" stroke="rgb(36,23,2)"
+                stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" class="large-box-5"></path>
+        </g>
+        <g>
+            <path
+                d=" M 521.152 249.739 C 534.003 227.142 533.429 202.739 519.985 180.445 C 494.503 138.187 428.588 127.54 388.67 159.963 C 346.046 194.585 357.068 260.113 408.763 282.71 C 450.1 300.779 500.311 286.386 521.152 249.739 Z  M 467.418 222.143 C 461.648 236.393 439.266 245.499 423.848 235.526 C 412.998 228.508 412.514 216.671 418.437 206.969 C 424.447 197.125 436.76 189.806 450.54 192.77 C 466.236 196.146 472.221 210.285 467.418 222.143 Z "
+                fill="rgb(125,92,29)" vector-effect="non-scaling-stroke" stroke-width="3" stroke="rgb(92,59,5)"
+                stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" class="large-box-6"></path>
+        </g>
+        <g>
+            <path
+                d=" M 200.472 350.535 C 178.456 328.361 170.769 297.763 181.427 268.263 C 192.464 237.711 219.535 218.788 251.834 216.983 C 306.309 213.939 350.484 269.461 332.772 321.466 C 314.362 375.519 240.397 390.749 200.472 350.535 Z  M 233.658 300.849 C 236.73 309.973 245.999 320.98 267.247 313.801 C 287.368 307.015 282.879 267.735 247.52 274.697 C 239.141 276.352 229.851 289.552 233.658 300.849 Z "
+                fill="rgb(188,0,95)" vector-effect="non-scaling-stroke" stroke-width="3" stroke="rgb(117,1,60)"
+                stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" class="large-box-7"></path>
+        </g>
+        <g>
+            <path
+                d=" M 409.227 380.073 C 442.997 380.506 475.565 351.216 486.636 317.018 C 497.708 282.82 480.88 229.04 418.556 219.571 C 356.232 210.103 310.053 269.468 330.763 321.466 C 351.474 373.464 375.456 379.64 409.227 380.073 Z  M 429.786 300.849 C 426.713 309.973 417.444 320.98 396.196 313.801 C 376.065 307.015 380.565 267.735 415.913 274.697 C 424.293 276.352 433.582 289.552 429.786 300.849 Z "
+                fill="rgb(213,189,151)" vector-effect="non-scaling-stroke" stroke-width="3" stroke="rgb(162,125,65)"
+                stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" class="large-box-8"></path>
+        </g>
+        <g>
+            <path
+                d=" M 320.248 447.461 C 374.03 465.251 435.391 425.338 433.972 367.686 C 432.917 324.85 399.732 291.809 357.605 286.609 C 311.98 280.976 267.88 310.228 261.321 356.392 C 255.474 397.548 281.144 434.526 320.248 447.461 Z  M 377.32 377.573 C 373.987 387.47 363.934 399.408 340.887 391.621 C 319.063 384.261 323.932 341.657 362.284 349.208 C 371.373 351.003 381.449 365.321 377.32 377.573 Z "
+                fill="rgb(249,98,164)" vector-effect="non-scaling-stroke" stroke-width="3" stroke="rgb(117,1,60)"
+                stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" class="large-box-9"></path>
+        </g>
+        <g>
+            <path
+                d=" M 156.676 444.496 C 115.77 428.31 93.902 382.867 109.104 343.293 C 124.307 303.719 169.561 279.263 214.263 292.974 C 255.037 309.987 278.893 341.8 267.834 389.587 C 256.774 437.374 197.582 460.683 156.676 444.496 Z  M 165.745 378.626 C 169.078 388.523 179.132 400.461 202.178 392.674 C 224.014 385.314 219.133 342.71 180.792 350.261 C 171.704 352.056 161.628 366.374 165.745 378.626 Z "
+                fill="rgb(113,86,42)" vector-effect="non-scaling-stroke" stroke-width="3" stroke="rgb(85,55,7)"
+                stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" class="large-box-10"></path>
+        </g>
+        <g>
+            <path
+                d=" M 29.642 375.422 Q 25.796 444.564 25.796 458.95 C 25.796 473.336 38.341 476.511 95.981 476.511 C 153.621 476.511 387.932 476.511 415.042 476.511 Q 442.152 476.511 468.745 439.656 L 585.629 268.016 Q 592.57 259 593 236.426 L 588.788 132.178 L 420.307 358.574 Q 414.499 372.263 365.551 372.263 Q 316.602 372.263 29.642 375.422 Z "
+                fill="rgb(255,217,235)" class="large-box-1"></path>
+            <path
+                d=" M 572.993 107.959 L 246.561 110.065 Q 220.753 110.065 190.381 142.708 L 12.189 351.808 C 3.693 363.887 8.128 371.078 25.43 371.21 Q 23.711 426.779 23.711 451.853 C 23.711 466.478 27.844 474.92 57.514 474.92 Q 96.999 474.92 410.338 474.243 Q 444.491 474.243 469.798 435.444 L 576.198 278.488 C 582.471 268.479 591.012 260.784 591.222 248.947 L 587.735 129.019 Q 588.549 111.061 572.993 107.959 Z "
+                fill="none" vector-effect="non-scaling-stroke" stroke-width="3" stroke="rgb(255,119,185)"
+                stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" class="large-box-4"></path>
+        </g>
+        <g>
+            <path
+                d=" M 25.796 371.912 L 362.457 371.912 C 401.155 371.912 406.182 370.486 424.058 352.61 L 580.822 143.972 C 591.51 127.948 583.626 107.959 560.357 107.959"
+                fill="none" vector-effect="non-scaling-stroke" stroke-width="3" stroke="rgb(255,119,185)"
+                stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" class="large-box-3"></path>
+        </g>
+    </g>
+</svg>
