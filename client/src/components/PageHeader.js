@@ -1,22 +1,15 @@
 import React from 'react';
-import { Container, AppBar, Toolbar, Box, Typography } from '@material-ui/core';
 
 import './PageHeader.scss';
-import logoImage from '../common/images/logo_no_bg.png';
+import { ReactComponent as LogoImage } from '../common/images/logo.svg';
 
 export default function PageHeader() {
 	return (
-		<Container disableGutters={true} maxWidth={false}>
-			<AppBar id="page-header" elevation={3} position="static" color="primary">
-				<Toolbar>
-					<Box>
-						<img alt="donut logo" src={logoImage} />
-						<Typography variant="h1">Eli Donuts</Typography>
-						<Typography variant="body1">Donuts artesanais sob encomenda</Typography>
-						<div className="arrow" />
-					</Box>
-				</Toolbar>
-			</AppBar>
-		</Container>
+		<div className="page-header p-shadow-5">
+			<LogoImage />
+			<h1 className="bold">Eli Donuts</h1>
+			<h2>Donuts artesanais sob encomenda</h2>
+			<div className="arrow" />
+		</div>
 	);
 }

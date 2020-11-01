@@ -3,22 +3,22 @@ import React, { useReducer, useContext, createContext } from 'react';
 const RootContext = createContext({});
 
 const initialState = {
-    animations: {},
     products: [],
+    boxInProgress: { size: 0, content: null },
     order: {},
-    selectedBoxes: []
+    orderStep: 0
 };
 
 const reducer = (oldState, { type, payload }) => {
     switch (type) {
-        case 'SET_ANIMATIONS':
-            return { ...oldState, animations: { ...oldState.animations, ...payload } };
         case 'SET_PRODUCTS':
             return { ...oldState, products: payload };
+        case 'SET_BOX_IN_PROGRESS':
+            return { ...oldState, boxInProgress: { ...oldState.boxInProgress, ...payload } };
         case 'SET_ORDER': // TODO
-            return oldState;
-        case 'SET_SELECTED_BOXES': // TODO
-            return oldState;
+            return { ...oldState, order: { ...oldState.order, ...payload } };
+        case 'SET_ORDER_STEP':
+            return { ...oldState, orderStep: payload, };
         default:
             console.log('Dispatched action was not found:', type);
             return oldState;
@@ -26,7 +26,9 @@ const reducer = (oldState, { type, payload }) => {
 }
 
 export const RootContextProvider = ({ children }) => {
-    const [store, dispatch] = useReducer(reducer, initialState);
+    const [store, dispatcher] = useReducer(reducer, initialState);
+    const dispatch = (type, payload) => dispatcher({ type, payload });
+
     return (
         <RootContext.Provider value={{ store, dispatch }}>
             {children}
