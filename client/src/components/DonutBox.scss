@@ -1,0 +1,521 @@
+@import '../common/styles/sizes.scss';
+@import '../common/styles/colors.scss';
+
+.donut-box {
+    cursor: pointer;
+    height: 170px;
+    width: 200px;
+    position: relative;
+
+
+    @media (max-width: $xs-max-width) {
+        height: 100px;
+        width: 120px;
+        right: 20px;
+        left: 5%;
+        right: 5%;
+    }
+
+    svg {
+        max-height: 200px;
+        max-width: 200px;
+        position: absolute;
+
+        @media (max-width: $xs-max-width) {
+            max-height: 100px;
+            max-width: 100px;
+        }
+    }
+
+    span {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .text1 {
+        display: flex;
+        margin-left: 15px !important;
+    }
+
+    .small-box,
+    .large-box {
+
+        &-1,
+        &-2,
+        &-3,
+        &-4 {
+            stroke-width: 3px;
+
+            @media (max-width: $xs-max-width) {
+                stroke-width: 2px;
+            }
+        }
+    }
+
+    .small-box-5,
+    .small-box-6 {
+        stroke-width: 6px;
+
+        @media (max-width: $xs-max-width) {
+            stroke-width: 3px;
+        }
+    }
+
+    .box-entrance {
+        stroke: $color-primary-harmony-3;
+        fill: $color-primary;
+
+        $pink-donut-fill: $color-primary;
+        $cocoa-donut-fill: $color-primary;
+        $cream-donut-fill: $color-primary;
+        $donut-dough-color: $color-primary-harmony-3;
+
+        // animation - box
+        $box-outline-animation: draw-box-entrance .8s linear 1s forwards, paint-box-entrance .6s linear .8s forwards;
+        $box-bottom-animation: draw-box-entrance .8s linear 1s forwards, paint-box-entrance .3s linear .8s forwards;
+        $box-front-animation: draw-box-entrance 1.2s linear .5s forwards, paint-box-entrance .6s linear .8s forwards;
+        $box-sides-animation: paint-box-entrance .6s linear .5s forwards;
+
+        // animation - donuts
+        $small-box-animation-5: draw-box-entrance .8s linear 0.8s forwards, paint-box-entrance .5s linear 1.6s forwards;
+        $small-box-animation-6: draw-box-entrance .8s linear 0.8s forwards, paint-box-entrance .5s linear 1.5s forwards;
+
+        $large-box-animated-5: draw-box-entrance 1.2s linear .2s forwards, paint-box-entrance .5s linear 1.5s forwards;
+        $large-box-animated-6: draw-box-entrance 1.2s linear .2s forwards, paint-box-entrance .5s linear 1.5s forwards;
+        $large-box-animated-7: draw-box-entrance 1.2s linear .4s forwards, paint-box-entrance .5s linear 1.7s forwards;
+        $large-box-animated-8: draw-box-entrance 1.2s linear .4s forwards, paint-box-entrance .5s linear 1.7s forwards;
+        $large-box-animated-9: draw-box-entrance 1.2s linear .6s forwards, paint-box-entrance .5s linear 1.9s forwards;
+        $large-box-animated-10: draw-box-entrance 1.2s linear .6s forwards, paint-box-entrance .5s linear 1.9s forwards;
+
+        @keyframes paint-box-entrance {
+            100% {
+                fill-opacity: 1;
+            }
+        }
+
+        @keyframes draw-box-entrance {
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+
+        .small-box,
+        .large-box {
+
+            &-2,
+            &-3,
+            &-4 {
+                fill: none;
+            }
+        }
+
+        .small-box {
+
+            &-1 {
+                fill: $color-primary;
+                fill-opacity: 0;
+                stroke-width: 0;
+                animation: $box-sides-animation;
+            }
+
+            &-2 {
+                stroke-dasharray: 470 470;
+                stroke-dashoffset: 470;
+                stroke: $color-primary-harmony-3;
+                fill-opacity: 0;
+                animation: $box-bottom-animation;
+            }
+
+            &-3 {
+                stroke-dasharray: 700 700;
+                stroke-dashoffset: 780;
+                stroke: $color-primary-harmony-3;
+                fill-opacity: 0;
+                animation: $box-front-animation;
+            }
+
+            &-4 {
+                stroke-dasharray: 600 600;
+                stroke-dashoffset: 600;
+                stroke: $color-primary-harmony-3;
+                fill-opacity: 0;
+                animation: $box-outline-animation;
+            }
+
+            &-5 {
+                stroke-dasharray: 230;
+                stroke-dashoffset: 230;
+                stroke: $donut-dough-color;
+                fill: $cocoa-donut-fill;
+                fill-opacity: 0;
+                animation: $small-box-animation-5;
+                // transform-origin: 65% 39%;
+                // transform: rotateZ(145deg);
+            }
+
+            &-6 {
+                stroke-dasharray: 970;
+                stroke-dashoffset: -290;
+                stroke: $donut-dough-color;
+                fill: $pink-donut-fill;
+                fill-opacity: 0;
+                animation: $small-box-animation-6;
+                // transform-origin: 45% 56%;
+                // transform: rotateZ(-180deg);
+            }
+
+        }
+
+        .large-box {
+            &-1 {
+                fill: $color-primary;
+                fill-opacity: 0;
+                stroke-width: 0;
+                animation: $box-sides-animation;
+            }
+
+            &-2 {
+                stroke-dasharray: 470 470;
+                stroke-dashoffset: 470;
+                stroke: $color-primary-harmony-3;
+                fill-opacity: 0;
+                animation: $box-bottom-animation;
+            }
+
+            &-3 {
+                stroke-dasharray: 700 700;
+                stroke-dashoffset: 780;
+                stroke: $color-primary-harmony-3;
+                fill-opacity: 0;
+                animation: $box-front-animation;
+            }
+
+            &-4 {
+                stroke-dasharray: 600 600;
+                stroke-dashoffset: 600;
+                stroke: $color-primary-harmony-3;
+                fill-opacity: 0;
+                animation: $box-outline-animation;
+            }
+
+            &-5 {
+                stroke-dasharray: 390;
+                stroke-dashoffset: -260;
+                stroke: $donut-dough-color;
+                fill: $cocoa-donut-fill;
+                fill-opacity: 0;
+                animation: $large-box-animated-5;
+            }
+
+            &-6 {
+                stroke-dasharray: 600;
+                stroke-dashoffset: -260;
+                stroke: $donut-dough-color;
+                fill: $cocoa-donut-fill;
+                fill-opacity: 0;
+                animation: $large-box-animated-6;
+            }
+
+            &-7 {
+                stroke-dasharray: 390;
+                stroke-dashoffset: -260;
+                stroke: $donut-dough-color;
+                fill: $cream-donut-fill;
+                fill-opacity: 0;
+                animation: $large-box-animated-7;
+            }
+
+            &-8 {
+                stroke-dasharray: 600;
+                stroke-dashoffset: -260;
+                stroke: $donut-dough-color;
+                fill: $cream-donut-fill;
+                fill-opacity: 0;
+                animation: $large-box-animated-8;
+            }
+
+            &-9 {
+                stroke-dasharray: 390;
+                stroke-dashoffset: -260;
+                stroke: $donut-dough-color;
+                fill: $pink-donut-fill;
+                fill-opacity: 0;
+                animation: $large-box-animated-9;
+            }
+
+            &-10 {
+                stroke-dasharray: 600;
+                stroke-dashoffset: -260;
+                stroke: $donut-dough-color;
+                fill: $pink-donut-fill;
+                fill-opacity: 0;
+                animation: $large-box-animated-10;
+            }
+        }
+    }
+
+    .box-overlay * {
+        fill: transparent;
+        stroke: transparent;
+    }
+
+    span:hover~.box-overlay,
+    .box-overlay:hover {
+        $pink-donut-fill: $color-primary-harmony-2;
+        $cocoa-donut-fill: #8f704c;
+        // $cream-donut-fill: #fff9ef;
+        $cream-donut-fill: #fbfbc6;
+        $donut-dough-color: #c4975b;
+
+        $ripple-outline-animation: animate-box-overlay 1s linear 1s infinite;
+        $ripple-donut-animation: animate-donut-overlay 2s linear 1s infinite;
+
+        // animation - box
+        $box-outline-animation: draw-box-overlay .3s linear 0s forwards, paint-box-overlay .6s linear .8s forwards, $ripple-outline-animation;
+        $box-bottom-animation: draw-box-overlay .3s linear 0s forwards, paint-box-overlay .3s linear .8s forwards, $ripple-outline-animation;
+        $box-front-animation: draw-box-overlay .3s linear .2s forwards, paint-box-overlay .6s linear .8s forwards, $ripple-outline-animation;
+        $box-sides-animation: paint-box-overlay .4s linear .5s forwards, $ripple-outline-animation;
+
+        // animation - donuts
+        $small-box-animation-5: draw-box-overlay .4s linear .3s forwards, paint-box-overlay .3s linear .6s forwards, $ripple-donut-animation;
+        $small-box-animation-6: draw-box-overlay .4s linear .3s forwards, paint-box-overlay .2s linear .4s forwards, $ripple-donut-animation;
+
+        $large-box-animated-5: draw-box-overlay .5s linear .3s forwards, paint-box-overlay .3s linear .5s forwards, $ripple-donut-animation;
+        $large-box-animated-6: draw-box-overlay .5s linear .3s forwards, paint-box-overlay .3s linear .5s forwards, $ripple-donut-animation;
+        $large-box-animated-7: draw-box-overlay .5s linear .2s forwards, paint-box-overlay .3s linear .4s forwards, $ripple-donut-animation;
+        $large-box-animated-8: draw-box-overlay .5s linear .2s forwards, paint-box-overlay .3s linear .4s forwards, $ripple-donut-animation;
+        $large-box-animated-9: draw-box-overlay .5s linear .1s forwards, paint-box-overlay .3s linear .3s forwards, $ripple-donut-animation;
+        $large-box-animated-10: draw-box-overlay .5s linear .1s forwards, paint-box-overlay .3s linear .3s forwards, $ripple-donut-animation;
+
+        @keyframes draw-box-overlay {
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+
+        @keyframes paint-box-overlay {
+            to {
+                fill-opacity: 1;
+            }
+        }
+
+        @keyframes animate-donut-overlay {
+
+            from,
+            to {
+                stroke-dasharray: 10 6;
+                stroke-linecap: round;
+                stroke-width: 5px;
+                stroke-dashoffset: 0;
+            }
+
+            50% {
+                stroke-width: 3px;
+                stroke-linecap: round;
+                stroke-dashoffset: 24;
+            }
+
+            to {
+                stroke-dashoffset: 48;
+                stroke-linecap: round;
+            }
+        }
+
+        @keyframes animate-box-overlay {
+
+            from,
+            to {
+                stroke-dasharray: 10;
+                stroke-width: 2px;
+            }
+
+            from {
+                stroke-dashoffset: 0px;
+            }
+
+            50% {
+                stroke-width: 5px;
+            }
+
+            to {
+                stroke-dashoffset: 40px;
+            }
+        }
+
+        @media (max-width: $xs-max-width) {
+            @keyframes animate-box-overlay {
+
+                from,
+                to {
+                    stroke-dasharray: 10;
+                    stroke-width: 2px;
+                }
+
+                from {
+                    stroke-dashoffset: 0px;
+                }
+
+                50% {
+                    stroke-width: 3px;
+                }
+
+                to {
+                    stroke-dashoffset: 40px;
+                }
+            }
+        }
+
+        @media (max-width: $xs-max-width) {
+            @keyframes animate-donut-overlay {
+
+                from,
+                to {
+                    stroke-dasharray: 10 6;
+                    stroke-linecap: round;
+                    stroke-width: 3px;
+                    stroke-dashoffset: 0;
+                }
+
+                50% {
+                    stroke-width: 1px;
+                    stroke-linecap: round;
+                    stroke-dashoffset: 24;
+                }
+
+                to {
+                    stroke-dashoffset: 48;
+                    stroke-linecap: round;
+                }
+            }
+        }
+
+        .small-box {
+            &-1 {
+                fill: $color-primary;
+                fill-opacity: 1;
+                stroke-width: 8px;
+                stroke: $color-primary-harmony-3;
+                animation: $box-sides-animation;
+            }
+
+            &-3 {
+                stroke-dasharray: 700 700;
+                stroke-dashoffset: 780;
+                stroke: $color-secondary;
+                fill-opacity: 0;
+                animation: $box-front-animation;
+            }
+
+            &-4 {
+                stroke-dasharray: 600 600;
+                stroke-dashoffset: 600;
+                stroke: $color-secondary;
+                fill-opacity: 0;
+                animation: $box-outline-animation;
+            }
+
+            &-5 {
+                stroke-dasharray: 230;
+                stroke-dashoffset: 230;
+                stroke-linecap: round;
+                stroke: $donut-dough-color;
+                fill: $cocoa-donut-fill;
+                fill-opacity: 0;
+                animation: $small-box-animation-5;
+            }
+
+            &-6 {
+                stroke-dasharray: 255 255;
+                stroke-dashoffset: 255;
+                stroke-linecap: round;
+                stroke: $donut-dough-color;
+                fill: $pink-donut-fill;
+                fill-opacity: 0;
+                animation: $small-box-animation-6;
+                transform-origin: 45% 86%;
+                transform: rotateZ(230deg) scale(-1, 1);
+            }
+        }
+
+        .large-box {
+            &-1 {
+                fill: $color-primary;
+                fill-opacity: 1;
+                stroke-width: 8px;
+                stroke: $color-primary-harmony-3;
+                animation: $box-sides-animation;
+            }
+
+            &-3 {
+                stroke-dasharray: 700 700;
+                stroke-dashoffset: 780;
+                stroke: $color-secondary;
+                fill-opacity: 0;
+                animation: $box-front-animation;
+            }
+
+            &-4 {
+                stroke-dasharray: 600 600;
+                stroke-dashoffset: 600;
+                stroke: $color-secondary;
+                fill-opacity: 0;
+                animation: $box-outline-animation;
+            }
+
+            &-5 {
+                stroke-dasharray: 250 250;
+                stroke-dashoffset: 270;
+                stroke: $donut-dough-color;
+                fill: $cocoa-donut-fill;
+                fill-opacity: 0;
+                animation: $large-box-animated-5;
+            }
+
+            &-6 {
+                stroke-dasharray: 250 250;
+                stroke-dashoffset: 270;
+                stroke: $donut-dough-color;
+                fill: $cocoa-donut-fill;
+                fill-opacity: 0;
+                animation: $large-box-animated-6;
+            }
+
+            &-7 {
+                stroke-dasharray: 250 250;
+                stroke-dashoffset: 270;
+                stroke: $donut-dough-color;
+                fill: $cream-donut-fill;
+                fill-opacity: 0;
+                animation: $large-box-animated-7;
+            }
+
+            &-8 {
+                stroke-dasharray: 250 250;
+                stroke-dashoffset: 270;
+                stroke: $donut-dough-color;
+                fill: $cream-donut-fill;
+                fill-opacity: 0;
+                animation: $large-box-animated-8;
+            }
+
+            &-9 {
+                stroke-dasharray: 250 250;
+                stroke-dashoffset: 270;
+                stroke: $donut-dough-color;
+                fill: $pink-donut-fill;
+                fill-opacity: 0;
+                animation: $large-box-animated-9;
+            }
+
+            &-10 {
+                stroke-dasharray: 250 250;
+                stroke-dashoffset: 270;
+                stroke: $donut-dough-color;
+                fill: $pink-donut-fill;
+                fill-opacity: 0;
+                animation: $large-box-animated-10;
+            }
+        }
+    }
+}

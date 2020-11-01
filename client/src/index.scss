@@ -1,15 +1,15 @@
+@import '../node_modules/primereact/resources/themes/md-light-indigo/theme.css';
+@import '../node_modules/primereact/resources/primereact.min.css';
+@import '../node_modules/primeflex/primeflex.scss';
+
 @import './common/styles/animations.scss';
 @import './common/styles/colors.scss';
-@import './common/styles/core.scss';
-@import './common/styles/fonts.scss';
-@import './common/styles/overloads.scss';
 @import './common/styles/sizes.scss';
+@import './common/styles/fonts.scss';
+@import './common/styles/core.scss';
+@import './common/styles/overloads.scss';
 
 body {
     margin: 0;
     background-color: $color-secondary;
-
-    * {
-        font-family: "Baloo Da 2", sans-serif !important;
-    }
 }

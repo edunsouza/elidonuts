@@ -1,13 +1,74 @@
 @import './sizes.scss';
+@import './colors.scss';
 
 #root {
-    .text-center {
-        text-align: center;
+    .bold {
+        font-family: "Baloo Da 2", sans-serif;
     }
 
-    .clear-bottom {
-        @media (min-width: $sm-min-width) {
-            margin-bottom: 20px;
+    .title1 {
+        font-size: 32px;
+        line-height: 32px;
+
+        @media (max-width: $xs-max-width) {
+            font-size: 26px;
+            line-height: 26px;
         }
+    }
+
+    .subtitle1 {
+        font-size: 26px;
+        line-height: 26px;
+
+        @media (max-width: $xs-max-width) {
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }
+
+    .subtitle2 {
+        font-size: 24px;
+        line-height: 24px;
+
+        @media (max-width: $xs-max-width) {
+            font-size: 18px;
+            line-height: 18px;
+        }
+    }
+
+    .text1 {
+        font-size: 16px;
+        line-height: 16px;
+
+        @media (max-width: $xs-max-width) {
+            font-size: 12px;
+            line-height: 12px;
+        }
+    }
+
+    .title1,
+    .subtitle1,
+    .subtitle2,
+    .text1 {
+        margin: 10px 0;
+        text-align: center;
+        color: $color-text;
+
+        &.primary {
+            color: $color-primary-harmony-1;
+        }
+
+        &.secondary {
+            color: $color-secondary-harmony-2;
+        }
+    }
+
+    .button-block {
+        width: 100%;
+    }
+
+    .hidden {
+        display: none;
+        visibility: hidden;
     }
 }

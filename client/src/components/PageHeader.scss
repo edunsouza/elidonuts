@@ -1,4 +1,5 @@
 @import '../common/styles/colors.scss';
+@import '../common/styles/sizes.scss';
 
 @keyframes donut-waves {
     from {
@@ -38,38 +39,33 @@
     }
 }
 
-#page-header {
+.page-header {
     background-color: $color-primary;
     height: 130px;
-    display: flex;
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    color: $color-text;
 
-    * {
-        justify-content: center;
-        text-align: center;
-        color: $color-text;
-    }
-
-    .MuiBox-root {
-        height: 100%;
-    }
-
-    img {
-        position: relative;
-        top: 5px;
-        height: 45px;
-        width: 45px;
+    svg {
+        height: 50px;
+        width: 50px;
         margin: 10px 0 5px 0;
+        justify-self: center;
         animation: 3s ease-in-out infinite donut-waves;
         animation-delay: 1s;
     }
 
-    .MuiTypography-h1 {
-        line-height: 32px;
+    h1 {
+        margin: 0;
+        line-height: 30px;
     }
 
-    .MuiTypography-body1 {
-        font-family: "Baloo Da 2 medium" !important;
-        position: relative;
+    h2 {
+        font-size: 18px;
+        margin: 0;
+        line-height: 20px;
         z-index: 2;
     }
 
@@ -85,5 +81,24 @@
         transform: rotate(45deg);
         box-shadow: 5px 5px 4px -1px rgba(0, 0, 0, 0.2);
         z-index: 1;
+    }
+
+    @media (max-width: $xs-max-width) {
+        grid-template-rows: 60px 1fr 1fr;
+
+        svg {
+            margin-top: 20px;
+            width: 40px;
+            height: 40px;
+        }
+
+        h1 {
+            font-size: 24px;
+            align-self: flex-end;
+        }
+
+        h2 {
+            font-size: 14px;
+        }
     }
 }

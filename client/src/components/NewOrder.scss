@@ -1,0 +1,53 @@
+@import '../common/styles/sizes.scss';
+@import '../common/styles/colors.scss';
+
+.new-order {
+    display: flex;
+    justify-content: center;
+
+    @media (max-width: $xs-max-width) {
+        top: 190px;
+    }
+
+    .card-step {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .box-choice {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+
+        .box-option {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+
+    .fade-to-order .p-card {
+        animation: fade-to-order .1s linear .3s forwards;
+        opacity: 0;
+
+        &>* {
+            opacity: 0;
+            animation: fade-to-order .6s linear .5s forwards;
+        }
+    }
+
+    @keyframes fade-to-order {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+}
