@@ -1,12 +1,10 @@
 npm-debug.log*
 .DS_Store
 
-dev-resources/
-
-server/node_modules/
-server/package-lock.json
-server/npm-debug.log*
-server/.DS_Store
+node_modules/
+package-lock.json
+npm-debug.log*
+.DS_Store
 
 client/node_modules/
 client/package-lock.json

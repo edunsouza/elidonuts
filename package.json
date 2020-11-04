@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Eli Donuts - Donut Store",
   "scripts": {
-    "test": "echo 1",
-    "start": "echo There's no start in here! This is a serverless project."
+    "test": "echo \"there are no tests here, I'm sorry\"",
+    "start": "vercel dev --listen 4000"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,7 @@
   "author": "Eduardo Nascimento Souza",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2",
-    "cookie-parser": "^1.4.5",
-    "express": "^4.17.1",
+    "jimp": "^0.16.1",
     "moment": "^2.27.0",
     "mongoose": "^5.9.26"
   }
