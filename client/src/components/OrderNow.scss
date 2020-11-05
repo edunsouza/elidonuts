@@ -5,7 +5,7 @@
 .order-now {
     margin-top: 30px;
 
-    .cards>* {
+    .cards>*:not(.p-dialog-mask) {
         position: absolute;
         top: 200px;
         width: 100%;
@@ -20,35 +20,6 @@
         h1 {
             margin-bottom: 15px;
             font-size: 18px;
-        }
-    }
-
-    .zoom-to-order .animated-button {
-        animation: zoom-to-order .5s ease-in-out 0s forwards;
-        transform-origin: 10% 28%;
-        z-index: 100;
-
-        &:not(.pulse) {
-            box-shadow: none !important;
-        }
-    }
-
-    @keyframes zoom-to-order {
-
-        from {
-            transform: scale(1);
-        }
-
-        20% {
-            color: transparent;
-        }
-
-        60%,
-        100% {
-            transform: scale(2.5, 6.6);
-            border-radius: 1px;
-            background-color: $color-primary;
-            color: transparent;
         }
     }
 }

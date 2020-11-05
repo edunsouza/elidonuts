@@ -13,3 +13,37 @@ body {
     margin: 0;
     background-color: $color-secondary;
 }
+
+.loader-spinner {
+    height: 100px;
+    width: 100px;
+    margin: 0 0 10px 0;
+    transform-origin: 51% 49%;
+    opacity: .4;
+    filter: saturate(.6);
+    animation: loading linear 3s infinite;
+
+    @media (max-width: $xs-max-width) {
+        height: 65px;
+        width: 65px;
+    }
+}
+
+@keyframes loading {
+
+    from {
+        transform: rotate(181deg);
+    }
+
+    55% {
+        transform: rotate(1440deg);
+    }
+
+    55.01% {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(180deg);
+    }
+}

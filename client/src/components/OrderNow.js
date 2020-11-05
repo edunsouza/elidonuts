@@ -1,89 +1,76 @@
 import React, { useState } from 'react';
-import clsx from 'clsx';
-import { Box, Paper, Typography, Button } from '@material-ui/core';
+import { useSpring, config, animated as Animated } from 'react-spring';
 
-import { useRootContext } from './RootContext';
+import { ButtonPrimary, ButtonSecondary, CardPrimary } from './utils/custom';
 
-import { ReactComponent as DonutIcon1 } from '../common/images/donuts-types/donut-type-1.svg';
-import { ReactComponent as DonutIcon2 } from '../common/images/donuts-types/donut-type-2.svg';
-import { ReactComponent as DonutIcon3 } from '../common/images/donuts-types/donut-type-3.svg';
-import { ReactComponent as DonutIcon4 } from '../common/images/donuts-types/donut-type-4.svg';
-import { ReactComponent as DonutIcon5 } from '../common/images/donuts-types/donut-type-5.svg';
-import { ReactComponent as DonutIcon6 } from '../common/images/donuts-types/donut-type-6.svg';
+import NewOrder from './NewOrder';
+import KnowMore from './KnowMore';
 
 import './OrderNow.scss';
 
 const NEW_CLIENT = 'newClient';
 const NEW_ORDER = 'newOrder';
-const OUT_ANIMATION = 'slide-out-right';
+const INTRO = 'intro';
 
 export default function OrderNow() {
-    const { store, dispatch } = useRootContext();
-    const [isIntroVisible, setIntroVisibility] = useState(true);
-    const [step, setStep] = useState('intro');
+    const [isIntroVisible, setIntroVisible] = useState(true);
+    const [step, setStep] = useState(INTRO);
+    const [animationDone, setAnimationDone] = useState(false);
+    const isMobile = window.outerWidth < 500;
+    const getTransitions = () => {
+        const width = window.outerWidth < 500 ? window.outerWidth * 1 : window.outerWidth * .8;
+        const transitions = {
+            from: {
+                transform: `translate(-${width}px, 0px)`,
+                opacity: 1,
+                clipPath: `circle(${isMobile ? 70 : 40}% at 50% 50%)`
+            },
+            to: async next => {
+                next({
+                    transform: 'translate(0px, 0px)',
+                    opacity: 0,
+                    clipPath: 'circle(1% at 50% 50%)'
+                });
+                setTimeout(() => setAnimationDone(true), 400)
+            }
+        };
 
-    const animatePanelOut = nextStep => {
-        dispatch({ type: 'SET_ANIMATIONS', payload: { orderIntro: OUT_ANIMATION } });
-        setStep(nextStep);
+        if (step === INTRO) {
+            transitions.to = {
+                transform: 'translate(0px, 0px)',
+                opacity: 1
+            };
+        }
+
+        return transitions;
     };
 
-    const onHideIntro = ({ animationName }) => setIntroVisibility(animationName !== OUT_ANIMATION);
+    const slideSpring = useSpring({
+        config: config.default,
+        onRest: () => step !== INTRO && setIntroVisible(null),
+        ...getTransitions(),
+    });
 
     return (
-        <Box className="order-now">
-            <Typography variant="subtitle1" className="text-center clear-bottom">
-                Faça seu pedido
-            </Typography>
-            {
-                isIntroVisible &&
-                <Box className={clsx('order-intro', store.animations.orderIntro)} onAnimationEnd={onHideIntro}>
-                    <Paper elevation={3}>
-                        <Typography variant="subtitle1" className="clear-bottom">
-                            Já conhece nossos produtos?
-                        </Typography>
-
-                        <Box className="order-intro-buttons">
-                            <Button
-                                variant="contained"
-                                color="primary"
-                                size="large"
-                                onClick={() => animatePanelOut(NEW_ORDER)}
-                            >
-                                Sim, e quero pedir mais!
-                            </Button>
-
-                            <Button
-                                variant="contained"
-                                color="secondary"
-                                size="large"
-                                onClick={() => animatePanelOut(NEW_CLIENT)}
-                            >
-                                Não, só dando uma olhadinha
-                            </Button>
-                        </Box>
-                    </Paper>
-                </Box>
-            }
-            {
-                step === NEW_ORDER &&
-                <Box className="new-order">
-                    <Paper elevation={3}>
-                        <Typography variant="subtitle1" className="clear-bottom">
-                            Pedido feito!
-                        </Typography>
-                    </Paper>
-                </Box>
-            }
-            {
-                step === NEW_CLIENT &&
-                <Box className="new-client">
-                    <Paper elevation={3}>
-                        <Typography variant="subtitle1" className="clear-bottom">
-                            Viu mais...
-                        </Typography>
-                    </Paper>
-                </Box>
-            }
-        </Box >
+        <div className="order-now">
+            <h1 className="subtitle1 primary fade-in-shaking">Faça seu pedido</h1>
+            <Animated.div className="cards">
+                {animationDone && step === NEW_ORDER && <NewOrder />}
+                {animationDone && step === NEW_CLIENT && <KnowMore />}
+                {isIntroVisible && <Animated.div className="p-d-flex p-jc-center" style={slideSpring}>
+                    <CardPrimary>
+                        <CardPrimary.Header className="subtitle2">Já conhece nossos produtos?</CardPrimary.Header>
+                        <CardPrimary.Footer className="p-d-flex p-flex-column p-flex-lg-row">
+                            <ButtonPrimary block className="p-mx-lg-5 p-mb-2 p-mb-lg-0 pulse" onClick={() => setStep(NEW_ORDER)}>
+                                Sim! Quero pedir agora
+                                </ButtonPrimary>
+                            <ButtonSecondary block className="p-mx-lg-5" onClick={() => setStep(NEW_CLIENT)}>
+                                Sou novo por aqui
+                                </ButtonSecondary>
+                        </CardPrimary.Footer>
+                    </CardPrimary>
+                </Animated.div>}
+            </Animated.div>
+        </div >
     );
 }

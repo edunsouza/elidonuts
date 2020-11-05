@@ -10,7 +10,7 @@ const ButtonPrimary = ({ children, onClick, block = false, size, className, ...p
             label={children}
             onClick={onClick}
             className={classnames(
-                'p-shadow-4',
+                'p-shadow-1',
                 block && 'button-block',
                 sizes[size],
                 className
@@ -28,15 +28,20 @@ const CardPrimary = ({ className, children }) => {
     const content = childArray.find(child => child.type === CardPrimary.Content);
     const footer = childArray.find(child => child.type === CardPrimary.Footer);
     return (
-        <Card className={classnames('p-shadow-3', className)} header={header} footer={footer}>
+        <Card
+            className={classnames('p-shadow-3', className)}
+            style={{ boxSizing: 'content-box' }}
+            header={header}
+            footer={footer}
+        >
             {content}
         </Card>
     );
 };
 
-CardPrimary.Header = ({ className, children }) => (<div className={className}>{children}</div>);
-CardPrimary.Content = ({ className, children }) => (<div className={className}>{children}</div>);
-CardPrimary.Footer = ({ className, children }) => (<div className={className}>{children}</div>);
+CardPrimary.Header = ({ className, children }) => (className ? <div className={className}>{children}</div> : <>{children}</>);
+CardPrimary.Content = ({ className, children }) => (className ? <div className={className}>{children}</div> : <>{children}</>);
+CardPrimary.Footer = ({ className, children }) => (className ? <div className={className}>{children}</div> : <>{children}</>);
 
 export {
     ButtonPrimary,

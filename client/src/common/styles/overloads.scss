@@ -69,4 +69,37 @@
         background-color: $color-secondary;
         color: $color-primary-harmony-2;
     }
+
+    .p-dialog {
+        background-color: $color-primary;
+
+        &>div {
+            background-color: $color-primary;
+        }
+
+        .p-dialog-title {
+            color: $color-text;
+            font-size: 22px;
+        }
+
+        @media (max-width: $xs-max-width) {
+            width: 90%;
+
+            &>div {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            .p-dialog-footer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .p-dialog-title {
+                font-size: 18px;
+            }
+        }
+    }
+
 }

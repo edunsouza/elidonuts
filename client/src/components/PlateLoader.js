@@ -1,22 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import './PlateLoader.scss'
 
-export default function PlateLoader() {
-    const [isLoading, setLoading] = useState(true);
-    const finish = ({ animationName }) => {
-        setLoading(animationName !== 'plate-zoom-out');
-    };
+export default function PlateLoader({ onFinish }) {
+    const finish = ({ animationName }) => animationName === 'plate-zoom-out' && onFinish();
     return (
-        <>
-            {
-                isLoading &&
-                <div className="loader" onAnimationEnd={finish}>
-                    <span />
-                    <div className="donut-shadow" />
-                    <div className="donut-loader" />
-                </div>
-            }
-        </>
+        <div className="loader" onAnimationEnd={finish}>
+            <span />
+            <div className="donut-shadow" />
+            <div className="donut-loader" />
+        </div>
     );
 }
